@@ -1,0 +1,13 @@
+.hilight-text {
+  font-weight: 700;
+  color: royalblue;
+}
+
+.img-wrapper {
+  width: 50px;
+  padding: 1rem 0;
+}
+.img {
+  display: block;
+  width: 100%;
+}
