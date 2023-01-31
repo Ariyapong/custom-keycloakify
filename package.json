@@ -23,10 +23,11 @@
     "license": "MIT",
     "keywords": [],
     "dependencies": {
+        "dayjs": "^1.11.7",
+        "evt": "^2.4.1",
         "keycloakify": "^6.10.0",
         "react": "18.1.0",
-        "react-dom": "18.1.0",
-        "evt": "^2.4.1"
+        "react-dom": "18.1.0"
     },
     "devDependencies": {
         "@types/node": "^15.3.1",

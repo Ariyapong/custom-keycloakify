@@ -11,3 +11,8 @@
   display: block;
   width: 100%;
 }
+
+.test-lib {
+  border: solid 2px gold;
+  padding: 3px;
+}
