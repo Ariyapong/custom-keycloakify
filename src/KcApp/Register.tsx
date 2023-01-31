@@ -4,7 +4,7 @@
 // Note that it is no longer recommended to use register.ftl, it's best to use register-user-profile.ftl
 // See: https://docs.keycloakify.dev/realtime-input-validation
 
-import { memo } from "react";
+import { memo, useEffect, useState } from "react";
 import Template from "keycloakify/lib/components/Template";
 import type { KcProps } from "keycloakify";
 import type { KcContext } from "./kcContext";

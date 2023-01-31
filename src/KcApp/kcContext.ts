@@ -12,9 +12,9 @@ export const { kcContext } = getKcContext<
     | { pageId: "register.ftl"; authorizedMailDomains: string[]; }
 >({
     // Uncomment to test the login page for development.
-    // "mockPageId": "login.ftl",
+    "mockPageId": "login.ftl",
     // "mockPageId": "my-extra-page-2.ftl",
-    // "mockPageId": "my-extra-page-1.ftl",
+    // "mockPageId": "register.ftl",
     "mockData": [
         {
             "pageId": "login.ftl",

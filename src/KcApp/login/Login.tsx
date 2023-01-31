@@ -1,13 +1,14 @@
-import "../assets/global-style.css";
+import "../../assets/global-style.css";
+import styles from "./login-style.module.scss";
 import { memo } from "react";
 import dayjs from "dayjs";
 import Template from "keycloakify/lib/components/Template";
 import type { KcProps } from "keycloakify";
-import type { KcContext } from "./kcContext";
+import type { KcContext } from "../kcContext";
 // import { clsx } from "keycloakify/lib/tools/clsx";
-import type { I18n } from "./i18n";
+import type { I18n } from "../i18n";
 import localizedFormat from "dayjs/plugin/localizedFormat";
-require('dayjs/locale/th')
+require("dayjs/locale/th");
 
 type KcContext_Login = Extract<KcContext, { pageId: "login.ftl" }>;
 
@@ -62,8 +63,8 @@ const Login = memo(
             <div className="test-lib">
               <label>test lib as follow</label>
               <div className="dayjs">
-                <div>
-                  <strong>iso8601: </strong>
+                <div className={styles.testSad}>
+                  <span className={styles.color}>iso8601: </span>
                   {dayjs().format()}
                 </div>
                 <div>
@@ -72,7 +73,7 @@ const Login = memo(
                 </div>
                 <div>
                   <strong>locale: </strong>
-                  {dayjs().locale('th').format("LLLL")}
+                  {dayjs().locale("th").format("LLLL")}
                 </div>
               </div>
             </div>

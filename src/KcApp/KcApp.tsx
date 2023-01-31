@@ -4,7 +4,7 @@ import type { KcContext } from "./kcContext";
 import KcAppBase, { defaultKcProps } from "keycloakify";
 import { useI18n } from "./i18n";
 
-const Login = lazy(() => import("./Login"));
+const Login = lazy(() => import("./login/Login"));
 const Register = lazy(() => import("./Register"));
 const Terms = lazy(() => import("./Terms"));
 const MyExtraPage1 = lazy(() => import("./MyExtraPage1"));
